@@ -51,16 +51,16 @@ body {
     cursor: pointer;
 } 
 
-.circle {
-	width: 100px;
-	height: 100px;
+#clock {
+	width: 60vh;
+	height: auto;
 	
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
-	border-radius: 50px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
 }
 
-.circle(@size: 0) {
+#clock(@size: 0) {
 	width: @size;
 	height: @size;
 	
