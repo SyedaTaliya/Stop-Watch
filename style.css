@@ -51,20 +51,4 @@ body {
     cursor: pointer;
 } 
 
-#clock {
-	width: 60vh;
-	height: auto;
-	
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-}
 
-#clock(@size: 0) {
-	width: @size;
-	height: @size;
-	
-	-webkit-border-radius: @size / 2 + 0px;
-	-moz-border-radius: @size / 2 + 0px;
-	border-radius: @size / 2 + 0px;
-}
